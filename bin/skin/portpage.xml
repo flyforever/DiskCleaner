@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <VerticalLayout>
+    <HorizontalLayout height="26">
+      <Option height="26" width="78" text="端口1" name="port1" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true"/>
+      <Control width="2" />
+      <Option height="26" width="78" text="端口2" name="trojan" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Control width="2" />
+      <Option height="26" width="78" text="端口3" name="plugins" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Control width="2" />
+      <Option height="26" width="78" text="端口4" name="vulnerability" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+    </HorizontalLayout>
+    <TabLayout name="ports" bkcolor="#FFFFFFFF">
+      <ChildLayout xmlfile="port.xml" />
+    </TabLayout>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <HorizontalLayout bkcolor="#FFFFFFFF">
+    <Control />
+    <VerticalLayout width="300" inset="0,100,0,0">
+      
+      <Text text="请输入用户名/密码" height="20" />
+      <Edit height="30" bkcolor="#FFFFFFFF" bordersize="1" bordercolor="#FFd0d0d0" />
+      <Control height="20"/>
+      <Edit height="30" bkcolor="#FFFFFFFF" bordersize="1" bordercolor="#FFd0d0d0" />
+      <HorizontalLayout height="40" inset="0,10,0,0">
+        <Control />
+        <Button name="btnlogin" text="登录" hotbkcolor="#FF0000FF" bkcolor="#FFd0d0d0" />
+        <Control />
+      </HorizontalLayout>
+    </VerticalLayout>
+    <Control />
+  </HorizontalLayout>
+</Window>

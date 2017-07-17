@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <VerticalLayout>
+    <TabLayout name="frontbar">
+      <ChildLayout xmlfile="machineinfo.xml" />
+      <ChildLayout xmlfile="login.xml" />
+    </TabLayout>
+  </VerticalLayout>
+</Window>

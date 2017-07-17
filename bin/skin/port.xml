@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <VerticalLayout inset="0,10,0,0">
+    <HorizontalLayout height="46" inset="100,0,0,20">
+      <Text text="插入硬盘" bkcolor="#FF00FFFF" />
+      <Control width="4" />
+      <Text text="开始擦除" bkcolor="#FF00FFFF" />
+      <Control width="4" />
+      <Text text="结束" bkcolor="#FF00FFFF" />
+    </HorizontalLayout>
+    <Control height="40" />
+    <HorizontalLayout height="26">
+      <Control />
+      <Text aligh="center" text="请确认连接硬盘后点击按钮开始" />
+      <Control />
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>
